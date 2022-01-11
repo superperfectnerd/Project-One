@@ -584,14 +584,14 @@ header {
 }
 
 .card_A {
-  background-color: purple;
+  background-color: skyblue;
 }
 
 .card_B {
   background-color: rosybrown;
 }
 
-.large_card {
+.big_card {
   background-color: grey;
   border-radius: 15px;
 }
