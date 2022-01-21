@@ -47,11 +47,11 @@ header {
   margin: 15px 0 0 5px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 992px) {
+/*@media only screen and (min-width: 320px) and (max-width: 992px) {
   .logo {
     margin-left: 155px;
   }
-}
+}*/
 
 #links {
   background-color: brown;
@@ -72,9 +72,9 @@ header {
   margin-left: 35px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 992px) {
+/*@media only screen and (min-width: 320px) and (max-width: 992px) {
   #links :nth-child(2) {
-    margin-left: 150px;
+    margin-left: 150px;*/
   }
 
 
@@ -84,11 +84,11 @@ header {
   color: #0065fc;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 992px) {
+/*@media only screen and (min-width: 320px) and (max-width: 992px) {
   #links a.active {
     margin-left: 5px;
   }
-}
+}*/
 
 /*Search Section*/
 
@@ -105,11 +105,11 @@ header {
   height: 40px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 992px) {
+/*@media only screen and (min-width: 320px) and (max-width: 992px) {
   #search_bar {
     justify-content: center;
   }
-}
+}*/
 
 #search_bar i {
   background-color: #deebff;
@@ -128,12 +128,12 @@ header {
   padding: 6px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 992px) {
+/*@media only screen and (min-width: 320px) and (max-width: 992px) {
   #search_bar input {
     font-size: 20px;
     font-weight: bold;
   }
-}
+}*/
 
 #search_bar button {
   background-color: #0065fc;
@@ -143,22 +143,22 @@ header {
   border-bottom-right-radius: 10px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 992px) {
+/*@media only screen and (min-width: 320px) and (max-width: 992px) {
   #search_bar button {
     border-radius: 25%;
   }
-}
+}*/
 
 #search p {
   background-color: blueviolet;
   font-weight: bold;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 992px) {
+/*@media only screen and (min-width: 320px) and (max-width: 992px) {
   #search p {
     font-size: 25px;
   }
-}
+}*/
 
 #search h5 {
   background-color: crimson;
@@ -166,11 +166,11 @@ header {
   margin-top: -10px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 992px) {
+/*@media only screen and (min-width: 320px) and (max-width: 992px) {
   #search h5 {
     font-size: 18px;
   }
-}
+}*/
 
 .short_search {
   background-color: darkred;
@@ -264,10 +264,10 @@ header {
   width: 27%;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 992px) {
+/*@media only screen and (min-width: 320px) and (max-width: 992px) {
   .info_text {
   }
-}
+}*/
 
 .border {
   background-color: solid black;
