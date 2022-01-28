@@ -43,7 +43,9 @@
         <div id="search_bar">
           <i class="fas fa-map-marker-alt"></i><input type="text" placeholder="Marseille, France">
           <button class="long_search"><strong>Search</strong></button>
-          <button class="short_search"><span class="short_search"><i class="fas fa search"></i></span></button>
+          <button class="short_search">
+            <i class="fas fa-search"></i>
+          </button>
         </div>
       </div>
 
@@ -51,22 +53,22 @@
         <div class="filter_part"><span class="filter_title">Filters</span></div>
         <div class="filter_part">
 
-          <div class="filter_element">
+          <div id="filter_element_a">
             <i class="fas fa-money-bill-wave"></i>
             <a href="#">Low cost</a>
           </div>
 
-          <div class="filter_element">
+          <div id="filter_element_b">
             <i class="fas fa-child"></i>
             <a href="#">Family-friendly</a>
           </div>
 
-          <div class="filter_element">
+          <div id="filter_element_c">
             <i class="fas fa-heart"></i>
             <a href="#">Romantic</a>
           </div>
 
-          <div class="filter_element">
+          <div id="filter_element_d">
             <i class="fas fa-dog"></i>
             <a href="#">Pets allowed</a>
           </div>
@@ -85,7 +87,7 @@
 <!--Accommodations-->
 
 
-  <div class="container">
+  <section class="container">
     <div class="accomodations_container">
 
       <h3 class="accomodations_heading" id="accmdtheading">Accomodations in Marsaille</h3>
@@ -164,7 +166,7 @@
         <div class="popular_image_caption">
           <h4 class="popular_image_heading">Morning Sun Hotel</h4>
           <p class="popular_caption_para">Night starting at 128<i class="fas fa-euro-sign"></i></p>
-          <p class="popular_caption_star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <p class="morning_sun_stars"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
           <i class="fas fa-star"></i><i class="fas fa-star"></i></p>
         </div>
       </div>
@@ -181,7 +183,7 @@
 
       
       <div class="popular_card">
-        <a href="#" target="blank"><img class="popular_image" src="Assets/toutbleu.jpg" alt="Tout bleu et Blanc Hotel"></a>
+        <a href="#"><img class="popular_image" src="Assets/toutbleu.jpg" alt="Tout bleu et Blanc Hotel"></a>
         <div class="popular_image_caption">
           <h4 class="popular_image_heading">Tout bleu et Blanc <br> Hotel</h4>
           <p class="popular_caption_para">Night starting at 68<i class="fas fa-euro-sign"></i></p>
@@ -196,84 +198,43 @@
 <!--Activities-->
 
 
-  <section class="active" id="active">
-    <h2>
-      <b>Activities in Marseille</b>
-    </h2>
-    <div class="active-card-wrap">
-      <section class="large_card">
-        <a href="#">
-          <img class="active_large_image" src="Assets/oldport.jpg" alt="old Port">
-          <div class="activities_image_heading">
-            <h3>
-              <b>Old Port</b>
-            </h3>
-          </div>
-        </a>
-      </section>
+  <section id="active">
+    <h3 id="activities_heading">Activities in Marseille</h3>
+    
+    <div class="activities_card">
+      <a href="#"><img class="large_activities_image" src="Assets/oldport.jpg" alt="Old Port"></a>
+      <h3 class="activities_image_heading">Old Port</h3>
+    </div>
 
-      <div class="second">
-        <section class="activity-card fort">
-          <a href="#">
-            <img class="active_small_image" src="Assets/pomeguesfort.jpg" alt="Pomegues Fort">
-            <div class="activities_image_heading">
-              <h3>
-                <b>Pomègues Fort</b>
-              </h3>
-            </div>
-          </a>
-        </section>
-
-        <section class="activity-card island">
-          <a href="#">
-            <img class="active_small_image" src="Assets/frioulisland.jpg" alt="Frioul Island">
-            <div class="activities_image_heading">
-              <h3>
-                <b>Frioul Island</b>
-              </h3>
-            </div>
-          </a>
-        </section>
+    <div class="activities_card_2">
+      <div class="small_active">
+        <a href="#"><img class="small_activities_image" src="Assets/pomeguesfort.jpg" alt="Pomegues Fort"></a>
+        <h3 class="activities_image_heading_2">Pomègues Fort</h3>
       </div>
 
-      <section class="large_card">
-        <a href="#">
-          <img class="active_large_image" src="Assets/calanques.jpg" alt="Calanques national Park">
-          <div class="activities_image_heading">
-            <h3>
-              <b>Calanques National Park</b>
-            </h3>
-          </div>
-        </a>
-      </section>
+      <div class="small_active">
+        <a href="#"><img class="small_activities_image" src="Assets/frioulisland.jpg" alt="Frioul Island"></a>
+        <h3 class="activities_image_heading_2">Frioul Island</h3>
+      </div>
+    </div>
 
-      <div class="fourth">
-        <section class="activity-card notre">
-          <a href="#">
-            <img class="active_small_image" src="Assets/notredame.jpg" alt="Notre-Dame-de-la-Garde">
-            <div class="activities_image_heading">
-              <h3>
-                <b>Notre-Dame-de-la-Garde</b>
-              </h3>
-            </div>
-          </a>
-        </section>
+    <div class="activities_card">
+      <a href="#"><img class="large_activities_image" src="Assets/calanques.jpg" alt="Calanques National Park"></a>
+      <h3 class="activities_image_heading">Calanques National Park</h3>
+    </div>
 
-        <section class="activity-card Longchamp">
-          <a href="#">
-            <img class="active_small_image" src="Assets/longchamppark.jpg" alt="Longchamp Park">
-            <div class="activities_image_heading">
-              <h3>
-                <b>Longchamp Park</b>
-              </h3>
-            </div>
-          </a>
-        </section>
+    <div class="activities_card_2">
+      <div class="small_active">
+        <a href="#"><img class="small_activities_image" src="Assets/notredame.jpg" alt="Notre-Dame-de-la-Garde"></a>
+        <h3 class="activities_image_heading_2">Notre-Dame-de-la-Garde</h3>
       </div>
 
+      <div class="small_active">
+        <a href="#"><img class="small_activities_image" src="Assets/longchamppark.jpg" alt="Longchamp Park"></a>
+        <h3 class="activities_image_heading_2">Longchamp Park</h3>
+      </div>
     </div>
   </section>
-
 
   <!--Footer-->
 
