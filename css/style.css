@@ -19,7 +19,6 @@ a {
 /*Wrapper*/
 
 #wrapper {
-  background-color: pink;
   margin: 0 auto;
 }
 
@@ -27,34 +26,28 @@ nav {
   min-height: 50px;
   display: flex;
   flex-flow: row wrap;
-  background-color: purple;
 }
 
 header {
-  background-color: green;
   padding: 0 20px 5px 20px;
 }
 
 #logo_box {
-  background-color: red;
   width: 70%;
   align-items: center;
 }
 
 .logo {
-  background-color: orange;
   height: 35px;
   margin: 15px 0 0 5px;
 }
 
 #links {
-  background-color: brown;
   text-align: end;
   font-weight: 500;
 }
 
 #links a {
-  background-color: yellow;
   display: inline-block;
   margin-left: 150px;
   line-height: 60px;
@@ -62,12 +55,10 @@ header {
 }
 
 #links :nth-child(2) {
-  background-color: cyan;
   margin-left: 35px;
 }
 
 #links a.active {
-  background-color: burlywood;
   border-top: 1px solid #0065fc;
   color: #0065fc;
 }
@@ -77,11 +68,9 @@ header {
 #search {
   min-height: 100px;
   padding: 6px;
-  background-color: antiquewhite;
 }
 
 #search_bar {
-  background-color: aquamarine;
   display: flex;
   flex-flow: row wrap;
   height: 40px;
@@ -99,7 +88,6 @@ header {
 }
 
 #search_bar input {
-  background-color: chocolate;
   border: 1px solid #deebff;
   padding: 6px;
   font-weight: bold;
@@ -114,12 +102,10 @@ header {
 }
 
 #search p {
-  background-color: blueviolet;
   font-weight: bold;
 }
 
 #search h5 {
-  background-color: crimson;
   font-weight: 500;
   margin-top: -10px;
 }
@@ -131,14 +117,12 @@ header {
 /*Filters*/
 
 #filters {
-  background-color: blueviolet;
   display: flex;
   flex-flow: row wrap;
   padding: 10px;
 }
 
 .filter_part {
-  background-color: chartreuse;
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
@@ -146,7 +130,6 @@ header {
 }
 
 #filter_element_a {
-  background-color: darkgoldenrod;
   border: 1px solid #deebff;
   min-width: 120px;
   margin-right: 25px;
@@ -158,7 +141,6 @@ header {
 }
 
 #filter_element_b {
-  background-color: darkgoldenrod;
   border: 1px solid #deebff;
   min-width: 120px;
   margin-right: 25px;
@@ -170,7 +152,6 @@ header {
 }
 
 #filter_element_c {
-  background-color: darkgoldenrod;
   border: 1px solid #deebff;
   min-width: 120px;
   margin-right: 25px;
@@ -182,7 +163,6 @@ header {
 }
 
 #filter_element_d {
-  background-color: darkgoldenrod;
   border: 1px solid #deebff;
   min-width: 120px;
   margin-right: 25px;
@@ -204,7 +184,6 @@ header {
 }
 
 .filter_title {
-  background-color: deeppink;
   border: none;
   text-align: center;
   margin-right: 25px;
@@ -213,7 +192,6 @@ header {
 }
 
 #filters a {
-  background-color: deepskyblue;
   text-decoration: none;
   margin: auto;
   padding-left: 5px;
@@ -229,12 +207,10 @@ header {
 /*Info Icon*/
 
 #info {
-  background-color: orangered;
   padding: 0;
 }
 
 #info i {
-  background-color: rgb(216, 112, 211);
   border: 1px solid #deebff;
   color: #0065fc;
   border-radius: 50%;
@@ -246,7 +222,6 @@ header {
 }
 
 .info_text {
-  background-color: rebeccapurple;
   display: inline-block;
   width: 29%;
 }
@@ -259,14 +234,13 @@ header {
 /*Accomodation*/
 
 .container {
-  background-color: orange;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .accomodations_container {
-  background-color: crimson;
+  background-color: #f2f2f2;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -277,7 +251,7 @@ header {
 }
 
 .accmdt_card {
-  background-color: blueviolet;
+  background-color: white;
   height: 230px;
   width: 240px;
   margin: 10px;
@@ -296,7 +270,6 @@ header {
 }
 
 .accomodations_heading {
-  background-color: yellow;
   width: 100%;
   margin-bottom: 10px;
   margin-left: 30px;
@@ -304,14 +277,12 @@ header {
 }
 
 .accomodation_caption {
-  background-color: darkorange;
   height: 75px;
   text-align: left;
   margin-left: 25px;
 }
 
 .caption_heading {
-  background-color: deeppink;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 0;
@@ -320,7 +291,6 @@ header {
 }
 
 .caption_para {
-  background-color: deepskyblue;
   padding: 0;
   margin: 0;
   font-size: small;
@@ -328,7 +298,6 @@ header {
 }
 
 .caption_star {
-  background-color: lightgreen;
   color: blue;
   margin-top: 5px;
   padding: 0;
@@ -338,7 +307,7 @@ header {
 /*Most Popular*/
 
 .popular_container {
-  background-color: grey;
+  background-color: #f2f2f2;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -351,7 +320,6 @@ header {
 }
 
 .popular_heading {
-  background-color: gold;
   margin-bottom: 60px;
   margin-left: 32px;
   font-family: "raleway";
@@ -359,15 +327,15 @@ header {
 }
 
 .chartline {
-  background-color: indianred;
-  border: rgb(241, 238, 238);
+  border: none;
+  background-color: #f2f2f2;
   font-size: medium;
   margin-bottom: 46px;
   padding-left: 100px;
 }
 
 .popular_card {
-  background-color: indigo;
+  background-color: white;
   height: 200px;
   width: 480px;
   margin: 20px;
@@ -385,7 +353,6 @@ header {
 }
 
 .popular_image_caption {
-  background-color: saddlebrown;
   vertical-align: middle;
   float: right;
   margin-right: 40px;
@@ -394,13 +361,11 @@ header {
 }
 
 .popular_image_heading {
-  background-color: lime;
   font-family: "raleway";
   margin-left: 20px;
 }
 
 .popular_caption_para {
-  background-color: slateblue;
   font-family: "raleway";
   font-size: small;
   margin-top: 50px;
@@ -408,7 +373,6 @@ header {
 }
 
 .popular_caption_star {
-  background-color: teal;
   color: blue;
   font-size: small;
   margin-left: 20px;
@@ -416,7 +380,6 @@ header {
 }
 
 .morning_sun_stars {
-  background-color: teal;
   color: blue;
   font-size: small;
   margin-left: 20px;
@@ -430,62 +393,61 @@ header {
 /*Activities*/
 
 #active {
-  background-color: blue;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
 }
 
 #activities_heading {
-  background-color: coral;
   margin-left: 20px;
   width: 100%;
 }
 
 .activities_card {
-  background-color: crimson;
+  box-shadow: #f2f2f2;
+  border: 1px solid #deebff;
   border-radius: 15px;
   width: 23.2%;
   margin: 20px 0 20px 20px;
   height: 450px;
-  align-items: center;
+  background-color: aquamarine;
 }
 
 .activities_card_2 {
-  background-color: lightseagreen;
   border-radius: 15px;
   width: 23.2%;
   margin: 20px 0 20px 20px;
   height: 450px;
-  align-items: center;
-}
-
-.activities_image_heading {
-  background-color: cyan;
-  margin-left: 20px;
+  background-color: burlywood;
 }
 
 .activities_image_heading_2 {
-  background-color: lightslategray;
+  position: relative;
   margin-left: 20px;
+  margin-bottom: 30px;
 }
 
 .small_active {
-  background-color: darkmagenta;
+  box-shadow: #f2f2f2;
+  border: 1px solid #deebff;
   height: auto;
   width: 100%;
   border-radius: 15px;
-  align-items: center;
+  background-color: brown;
 }
 
 .large_activities_image {
+  border: 1px solid #deebff;
   height: 400px;
   width: 100%;
   border-radius: 15px 15px 0 0;
 }
 
 .small_activities_image {
-  height: 169px;
+  border: 1px solid #deebff;
+  height: 166px;
   width: 100%;
   border-radius: 15px 15px 0 0;
 }
@@ -493,7 +455,7 @@ header {
 /*Footer*/
 
 #footer {
-  background-color: palegreen;
+  background-color: #f2f2f2;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -501,7 +463,6 @@ header {
 }
 
 .footer_card {
-  background-color: red;
   width: 30%;
   height: 400px;
   margin-left: 20px;
@@ -509,12 +470,7 @@ header {
   padding-right: 20px;
 }
 
-.footer_heading {
-  background-color: salmon;
-}
-
 .footer_list {
-  background-color: skyblue;
   margin-left: -40px;
 }
 
@@ -562,9 +518,6 @@ ul {
   .short_search {
     display: inline;
   }
-  .button i {
-    background-color: #0065fc;
-  }
 
   /*Filters*/
 
@@ -593,6 +546,7 @@ ul {
     order: 2;
   }
   .accomodations_container {
+    background-color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -691,28 +645,29 @@ ul {
   }
   #activities_heading {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     font-size: 20px;
   }
   .activities_card {
     height: 250px;
     width: 325px;
-    margin: 20px 20px 0 25px;
+    margin: 0 20px 20px 25px;
     font-size: 17px;
     box-shadow: 2px 2px 5px gray;
   }
   .activities_card_2 {
-    height: 550px;
+    height: 535px;
     width: 325px;
-    margin: 20px 20px 0 25px;
+    margin: 0 20px 0 25px;
     font-size: 17px;
-    box-shadow: 2px 2px 5px gray;
+    vertical-align: space-between;
   }
   .small_active {
     height: 250px;
     width: 100%;
     font-size: 17px;
     box-shadow: 2px 2px 5px gray;
+    margin-bottom: 10px;
   }
   .large_activities_image {
     height: 170px;
