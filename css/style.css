@@ -406,41 +406,70 @@ header {
 }
 
 .activities_card {
-  box-shadow: #f2f2f2;
+  box-shadow: 2px 2px 5px #f2f2f2;
   border: 1px solid #deebff;
   border-radius: 15px;
   width: 23.2%;
-  margin: 20px 0 20px 20px;
-  height: 450px;
-  background-color: aquamarine;
+  margin: 10px 0 20px 20px;
+  height: 470px;
 }
 
 .activities_card_2 {
-  border-radius: 15px;
+  /*border-radius: 15px;
   width: 23.2%;
   margin: 20px 0 20px 20px;
   height: 450px;
-  background-color: burlywood;
+  background-color: blueviolet;*/
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.activities_image_heading {
+  position: static;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 17px;
 }
 
 .activities_image_heading_2 {
-  position: relative;
+  position: static;
   margin-left: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
-.small_active {
+/*.small_active {
+  display: flex;
+  flex-flow: column;
   box-shadow: #f2f2f2;
   border: 1px solid #deebff;
-  height: auto;
+  height: 210px;
   width: 100%;
   border-radius: 15px;
   background-color: brown;
+  margin-top: 15px;
+  justify-content: space-between;
+}*/
+
+.small_active {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 0;
+  width: 300px;
+  box-shadow: 2px 2px 5px #f2f2f2;
+  height: fit-content;
+  border: 1px solid #deebff;
+}
+
+.small_active:hover {
+  box-shadow: 2px 2px 5px grey;
 }
 
 .large_activities_image {
   border: 1px solid #deebff;
-  height: 400px;
+  height: 405px;
   width: 100%;
   border-radius: 15px 15px 0 0;
 }
@@ -449,6 +478,7 @@ header {
   border: 1px solid #deebff;
   height: 166px;
   width: 100%;
+  object-fit: cover;
   border-radius: 15px 15px 0 0;
 }
 
@@ -484,21 +514,25 @@ ul {
 @media only screen and (min-width: 375px) and (max-width: 812px) {
   /*wrapper*/
 
+  #wrapper {
+    order: 1;
+  }
   .logo {
     margin-left: 125px;
   }
   #links :nth-child(2) {
     margin-left: 100px;
+    border-bottom: 1px solid #0065fc;
+    background-color: orange;
   }
   #links a.active {
     margin-left: 5px;
+    border-bottom: 1px solid #0065fc;
+    background-color: tomato;
+    border-top: white;
   }
 
   /*Search Section*/
-
-  #wrapper {
-    order: 1;
-  }
 
   #search {
     font-size: 20px;
@@ -526,9 +560,11 @@ ul {
   }
   #filter_element_a {
     order: 1;
+    margin-bottom: 10px;
   }
   #filter_element_b {
     order: 3;
+    margin-bottom: 10px;
   }
   #filter_element_c {
     order: 2;
@@ -559,7 +595,6 @@ ul {
   .accmdt_card {
     height: 250px;
     width: 325px;
-    margin: 20px;
     margin-top: 20px;
     margin-left: 25px;
     font-size: 17px;
@@ -645,13 +680,13 @@ ul {
   }
   #activities_heading {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size: 20px;
   }
   .activities_card {
     height: 250px;
     width: 325px;
-    margin: 0 20px 20px 25px;
+    margin: 25px 20px 5px 25px;
     font-size: 17px;
     box-shadow: 2px 2px 5px gray;
   }
@@ -660,14 +695,16 @@ ul {
     width: 325px;
     margin: 0 20px 0 25px;
     font-size: 17px;
-    vertical-align: space-between;
+    justify-content: space-between;
   }
   .small_active {
     height: 250px;
     width: 100%;
     font-size: 17px;
     box-shadow: 2px 2px 5px gray;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 0;
+    margin-left: 0;
   }
   .large_activities_image {
     height: 170px;
